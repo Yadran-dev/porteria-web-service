@@ -39,7 +39,7 @@ if(isset($_GET['rut'])){
 					if($dataSetBusquedaTemp){
 						$response = false;
 					}else{
-                        $querytemperature = "insert into registros_temperatura (rut,temperatura,fecha) values ('".$_GET['rut']."',".$_GET['temp'].",getdate())";
+                        $querytemperature = "insert into registros_temperatura (rut,temperatura,fecha,mascarilla) values ('".$_GET['rut']."',".$_GET['temp'].",getdate(),".$_GET['mascarilla'].")";
                         $response = $con2->query($querytemperature);
 					}
 
