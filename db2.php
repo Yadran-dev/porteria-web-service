@@ -5,7 +5,7 @@
  */
 class SqlSrv2
 {
-    public $serverName = "192.168.6.233";
+    public $serverName = "192.168.6.225";
     public $dbname = "acceso_control_2";
     public $user = "sa";
     public $password = "L0m4r2013";

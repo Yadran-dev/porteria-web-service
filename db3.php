@@ -5,7 +5,7 @@
  */
 class SqlSrv3
 {
-    public $serverName = "192.168.6.233";
+    public $serverName = "192.168.6.102";
     public $dbname = "etbox_yadran";
     public $user = "sa";
     public $password = "L0m4r2013";
